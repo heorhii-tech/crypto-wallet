@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.statistic_card{
+    margin-bottom: 10px;
+   
+}
+.ant-list-item{
+    display: flex;
+    justify-content: space-between;
+}
+.ant-tag{
+    margin-right: 0;
+}
+header{
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background: white;
+}
+.select_crypto_icon{
+    width: 20px;
+}
+.drawer_crypto_logo{
+    width: 40px;
+}
+
+.content_title{
+    color: #fff;
+}
+
+.assets-chart{
+    
+    margin: auto;
+    margin-top: 20px;
+   
+}
+.table{
+    
+   
+    justify-self: end;
+    align-self: flex-end;
+
+}
+.chart{
+    width: 400px;
+    margin: 0 auto ;
+}
+.crypto_icon{
+    width: 40px;
+    margin-right: 10px;
+}
+.modal_time_stat{
+    margin-right: 10px;
+}
+.drawer_select{
+   width: 100%;
+
+}
+.content_titile_wrapper{
+    display: flex;
+    height: 45px;
+    gap: 20px;
+    .content-title-tag {
+            align-self: center;
+            font-size: 18px;
+            padding: 5px 8px;
+            font-weight: 600;
+    
+        }
+    }
